@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background-color: #f0f4f8; color: #333; line-height: 1.6; }
+header { background-color: #1a73e8; color: white; text-align: center; padding: 30px 20px; margin-bottom: 30px; }
+main { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+.conteudo { background: white; border: 2px solid #dbeafe; border-radius: 12px; padding: 25px; margin-bottom: 30px; }
+.imagem-principal { width: 100%; max-height: 350px; object-fit: cover; border-radius: 10px; border: 3px solid #1a73e8; margin-top: 15px; }
+.cartao { background: white; border: 2px solid #1a73e8; border-left: 8px solid #1a73e8; border-radius: 12px; padding: 20px; margin-bottom: 30px; display: flex; gap: 20px; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.cartao-foto { width: 100px; height: 100px; border-radius: 50%; border: 3px solid #1a73e8; }
+.tag { display: inline-block; background: #dbeafe; color: #1a73e8; padding: 4px 10px; margin-right: 6px; border-radius: 20px; font-size: 0.8em; font-weight: 600; border: 1px solid #93c5fd; }
+footer { background: #0f172a; color: #cbd5e1; text-align: center; padding: 20px; margin-top: 20px; }
