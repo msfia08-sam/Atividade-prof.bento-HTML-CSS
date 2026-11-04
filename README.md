@@ -1,4 +1,4 @@
-# Galeria de Fotos (Instagram Clone) 📸
+# Galeria de Fotos 📸
 
 Este projeto é uma réplica simplificada e estática da interface de grade do Instagram. O objetivo principal é consolidar conhecimentos práticos em **CSS Grid Layout** para a criação de grades responsivas e aplicar efeitos visuais interativos através de transições em CSS.
 
