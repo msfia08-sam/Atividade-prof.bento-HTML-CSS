@@ -1,38 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Pagina Estilizada</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>galeria de fotos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Minha Primeira Página com HTML e CSS 💜</h1>
-        <p class="subtitulo">TI1 - Técnico em Informática | 4º Bimestre</p>
+
+  <main class="container">
+    <header class="profile-header">
+      <h1>@perfil.gostos</h1>
+      <p>💜Galeria de posters de coisa que eu gosto pra quem não sabe o que me dar de presente😎.💜</p>
+     <p><strong>fica a dica🥳</strong></p>
     </header>
-    <main>
-        <section class="conteudo">
-            <h2>Sobre este projeto ✨</h2>
-            <p>Esta página foi criada para a atividade prática das Aulas 01, 02 e 03 de HTML e CSS. O objetivo é aplicar a estrutura básica do HTML e estilizar com um arquivo CSS externo.</p>
-            <p>Aqui estou usando cores em tons de lilás, fontes fofas, bordas arredondadas, padding e margin para trabalhar o Modelo de Caixa (Box Model) da Aula 03.</p>
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Mesa fofa com notebook, flores e café" class="imagem-principal">
-        </section>
-        <section class="cartao">
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200" alt="Foto de perfil de uma garota" class="cartao-foto">
-            <div class="cartao-info">
-                <h3>Maria Sofia Soares Araújo 💖</h3>
-                <p>Estudante do curso Técnico em Informática</p>
-                <p>Apaixonada por tecnologia, design e desenvolvimento web. Criando coisas lindas com código!</p>
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">TI1</span>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Atividade HTML e CSS - 2026 | TI1 💜</p>
-    </footer>
+
+    <section class="gallery-grid">
+      <article class="post-item">
+        <img src="https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_.jpg" alt="animes">
+        <div class="overlay">
+          <span>❤️ 1.240 &nbsp;&nbsp; 💬 48</span>
+        </div>
+      </article>
+       
+       <article class="post-item">
+        <img src="https://i.pinimg.com/736x/26/76/83/267683e536708fdf3443c2622846db01.jpg" alt="livros">
+        <div class="overlay">
+          <span>❤️ 1.240 &nbsp;&nbsp; 💬 48</span>
+        </div>
+      </article>
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSCmbAhSok6TMd-9UGyAr2n-AjVqeyDK1t4QIJFdaYToBdQiCsM6Ntdh0&s=10" alt="livros">
+        <div class="overlay">
+          <span>❤️ 1.240 &nbsp;&nbsp; 💬 48</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdsgRJKuP-hrPrEI742ol0CDGNpLz4bxNNm7WIxMoh2ZPbkja2zDrDbFs&s=10" alt="animes">
+        <div class="overlay">
+          <span>❤️ 890 &nbsp;&nbsp; 💬 23</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg4vm8qstqALJK85N_GKAwvbWZz0JM2QoXyikg4pViXtiIKi4SbkJRUs8&s=10.jpg" alt="mundo torajo">
+        <div class="overlay">
+          <span>❤️ 10.150 &nbsp;&nbsp; 💬 112</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhXs7sGRDohjnT8QIfhdoT9AkLjuBa45roSfXMOBbIDn3_gwH7_7nTgo97&s=10.jpg" alt="sailor moon">
+        <div class="overlay">
+          <span>❤️ 540 &nbsp;&nbsp; 💬 19</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMUvJyLpD6ulrAe2cD67sS8ku7C9xlE7aVVfe-nY39UNSQas0HkDXtrwD&s=10.jpg" alt="animes">
+        <div class="overlay">
+          <span>❤️ 3.410 &nbsp;&nbsp; 💬 87</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjM5OTEwOTItZWQxZS00NTNmLTgwMzUtZGUyZWZjNDY3ZGFiXkEyXkFqcGc@._V1_.jpg" alt="animes">
+        <div class="overlay">
+          <span>❤️ 980 &nbsp;&nbsp; 💬 34</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP7qD17VqydgqbYlTB2hgjbpI2Ua9cSMjfZQ&s.jpg" alt="turma da batatinha">
+        <div class="overlay">
+          <span>❤️ 10.670 &nbsp;&nbsp; 💬 61</span>
+        </div>
+      </article>
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9Q79Q6RYIPmT4HH1sG8vRQwrv8PcdeV0wXAMvzSnSQ&s=10" alt="baseado em livro">
+        <div class="overlay">
+          <span>❤️ 10.670 &nbsp;&nbsp; 💬 61</span>
+        </div>
+      </article>
+        
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfpX_VureA5AchTb1nRjN1cybQkrbSsG64v8u3w4h_gA&s=10" alt="baseado em livro">
+        <div class="overlay">
+          <span>❤️ 10.670 &nbsp;&nbsp; 💬 61</span>
+        </div>
+      </article>
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT0qqfDJvXfKyDWbs0HkdY80WBxDQmyCdkvxtMp_MZZg&s=10" alt="livro">
+        <div class="overlay">
+          <span>❤️ 10.670 &nbsp;&nbsp; 💬 61</span>
+        </div>
+      </article>
+    
+      
+
+      <article class="post-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvk2xmBL_v04yCP_T7b22TCJj_zYQ2sob6OyPvtDh2Dg&s=10.jpg" alt="BLUE look">
+        <div class="overlay">
+          <span>❤️ 1.120 &nbsp;&nbsp; 💬 45</span>
+        </div>
+      </article>
+
+      <article class="post-item">
+        <img src="https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg" alt="Hunter x Hunter">
+        <div class="overlay">
+          <span>❤️ 4.890 &nbsp;&nbsp; 💬 210</span>
+    </div>
+    </article>
+     <article class="post-item">
+        <img src="https://m.media-amazon.com/images/M/MV5BZmZkZjNhMWMtM2U0Mi00MjdlLTk3NmMtMTMwZjgwOTJmODMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="animes">
+        <div class="overlay">
+          <span>❤️ 14.890 &nbsp;&nbsp; 💬 410</span>
+       
+        </div>
+      </article>
+    </section>
+    
+     <div class="cartao-perfil">
+            <h3>Cartão de Apresentação</h3>
+            <img class="foto-perfil" src="foto.jpg" alt="Foto de perfil do estudante" width="100" height="100">
+            <p><b><strong>Aluno:</strong></b> Maria Sofia Soares Araújo</p>
+            <p><b><strong>curso:</strong></b> TI1 - Técnico em Informática</p>
+            <p><b><strong>Escola:</strong></b> EEEP Professor Antônio Valmir da Silva</p>
+            <p><b><strong>Cidade:</strong></b> caucaia - CE</p>
+        </div>
+
+
+  </main>
+  
+
 </body>
 </html>
 
